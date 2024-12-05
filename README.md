@@ -4,19 +4,17 @@ This project seeks to investigate the relationship between various parameters (l
 
 Authors and contributors:
 
-Mukunda Saiteja Annam, CISCO-IISC, mukundaannam@iisc.ac.in
+Mukunda Saiteja Annam,IISC
 
-Rahul Rai, CISCO-IISC, rahulrai@iisc.ac.in 
+Rahul Rai, IISC
 
-Manoj Kumar Yelamarthi, CISCO-IISC, manojyk@iisc.ac.in 
+Manoj Kumar Yelamarthi, IISC 
 
-T Senthilkumar, CISCO-IISC, senthilkuma1@iisc.ac.in 
+T Senthilkumar,IISC
 
 
 Project Structure
-Customer_satisfaction.ipynb:
-
-This is the main algorithm file that predicts customer satisfaction.
+Customer_satisfaction.ipynb: This is the main algorithm file that predicts customer satisfaction.
 It includes:
 Data cleaning
 Data processing
