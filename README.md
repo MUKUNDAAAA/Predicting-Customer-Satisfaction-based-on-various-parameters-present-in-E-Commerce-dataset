@@ -12,52 +12,103 @@ Manoj Kumar Yelamarthi, CISCO-IISC, manojyk@iisc.ac.in
 
 T Senthilkumar, CISCO-IISC, senthilkuma1@iisc.ac.in 
 
-Background of the problem:
 
-E-commerce is growing rapidly, and understanding what factors affect customer satisfaction, as expressed in ratings and reviews, is essential for any business.
-Online reviews are an important part of the customer journey and can influence future purchases.
+Project Structure
+Customer_satisfaction.ipynb:
 
-Why is it important?
+This is the main algorithm file that predicts customer satisfaction.
+It includes:
+Data cleaning
+Data processing
+Exploratory Data Analysis (EDA)
+Feature engineering
+Outlier detection
+Analysis of the relationship between features and the target variable
+Model development using Histogram-based Gradient Boosting Classifier
+Metric evaluation for the algorithm
+Hyperparameter tuning
+customer_satisfaction_all_models.ipynb:
 
-Customer Satisfaction has direct implication towards company sales. By improving customer satisfaction there will be increase in company future sales.
-Objectives of the project
-The objective of this project is to analyze the Brazilian E-Commerce Public Dataset on Kaggle to determine customer satisfaction.
+This file contains the evaluation of various models.
+It provides a comprehensive comparison of different algorithms.
+Dataset:
 
-How can Data Science solve the problem?
+This folder contains all the input data used in the project.
+Requirements:
 
-Data science can be used to analyze the relationship between various parameters like delivery time, price, product etc… against customer ratings. This can be done by using techniques of machine learning.
-By identifying the factors that most influence customer ratings, businesses can take steps to improve and increase customer satisfaction.
+All the dependencies and libraries required for the project are listed in the requirements.txt file.
+Data Science PPT_final:
+
+This PowerPoint presentation includes:
+An overview of the project
+Links to the dataset
+Results and findings
+Project Report:
+
+A detailed analysis of the project.
+Comprehensive reporting of the methodologies and results.
 
 
-Data Sources and Data Models:
+Background of the Problem
+E-commerce is rapidly growing, and understanding factors affecting customer satisfaction, as expressed in ratings and reviews, is crucial for businesses. Online reviews significantly influence future purchases.
 
-Primary Data: The Brazilian e-commerce dataset provided by Github.
-Data Model: olist_customers_dataset, product_category_name_translation,olist_sellers_dataset,olist_products_dataset,olist_orders_dataset,olist_order_reviews_dataset,olist_order_payments_dataset,olist_order_items_dataset,olist_geolocation_dataset, olist_customers_dataset
-SIZE: 45MB
-Records- Around 95K
-Years – 2 years
-Any preprocessing steps required- not required
+Importance
+Customer satisfaction directly impacts company sales. Improving satisfaction can lead to increased future sales.
 
-Project phases (data collection, model building, testing) 
-Data Collection and Preprocessing : Collect, clean, and prepare the data for model building.
-Exploratory Data Analysis (EDA) : Explore the dataset to understand relationships between features and target variables.
-Model Building : Train machine learning models and fine-tune hyperparameters if any.
-Testing and Model Evaluation : Test the model on unseen data and validate its performance.
-Deployment and Reporting : Deploy the model and report key findings.
+Objectives
+Analyze the Brazilian E-Commerce Public Dataset on Kaggle to determine customer satisfaction.
 
-Overview of methods or models you plan to use:
+Data Science Solution
+Data science can analyze relationships between parameters like delivery time, price, and product quality against customer ratings using machine learning techniques. Identifying key factors can help businesses improve customer satisfaction.
+
+Data Sources and Models
+Primary Data: Brazilian e-commerce dataset from GitHub.
+Data Models: Includes various datasets like customers, products, sellers, orders, reviews, payments, items, and geolocation.
+Size: 45MB, ~95K records over 2 years.
+Preprocessing: Not required.
+Project Phases
+Data Collection and Preprocessing: Collect, clean, and prepare data.
+Exploratory Data Analysis (EDA): Understand relationships between features and target variables.
+Model Building: Train and fine-tune machine learning models.
+Testing and Model Evaluation: Validate model performance on unseen data.
+Deployment and Reporting: Deploy the model and report findings.
+Methods/Models
 Logistic Regression
 Decision Tree
-RandomForest
+Random Forest
+Justification
+These methods are suitable for binary classification, handle complex and non-linear data, manage high-dimensional data, provide feature importance, and are robust to missing and noisy data, ensuring good performance and generalization.
 
-Justification for choosing these methods:
 
-It's well-suited for binary classification tasks.
-It handles complex and non-linear data relationships.
-It manages high-dimensional data effectively.
-It provides feature importance to help understand the drivers of satisfaction
-It is robust to missing and noisy data, ensuring good performance and generalization.
+Background of the Problem
+E-commerce is rapidly growing, and understanding factors affecting customer satisfaction, as expressed in ratings and reviews, is crucial for businesses. Online reviews significantly influence future purchases.
 
+Importance
+Customer satisfaction directly impacts company sales. Improving satisfaction can lead to increased future sales.
+
+Objectives
+Analyze the Brazilian E-Commerce Public Dataset on Kaggle to determine customer satisfaction.
+
+Data Science Solution
+Data science can analyze relationships between parameters like delivery time, price, and product quality against customer ratings using machine learning techniques. Identifying key factors can help businesses improve customer satisfaction.
+
+Data Sources and Models
+Primary Data: Brazilian e-commerce dataset from GitHub.
+Data Models: Includes various datasets like customers, products, sellers, orders, reviews, payments, items, and geolocation.
+Size: 45MB, ~95K records over 2 years.
+Preprocessing: Not required.
+Project Phases
+Data Collection and Preprocessing: Collect, clean, and prepare data.
+Exploratory Data Analysis (EDA): Understand relationships between features and target variables.
+Model Building: Train and fine-tune machine learning models.
+Testing and Model Evaluation: Validate model performance on unseen data.
+Deployment and Reporting: Deploy the model and report findings.
+Methods/Models
+Logistic Regression
+Decision Tree
+Random Forest
+Justification
+These methods are suitable for binary classification, handle complex and non-linear data, manage high-dimensional data, provide feature importance, and are robust to missing and noisy data, ensuring good performance and generalization.
 
 
 
