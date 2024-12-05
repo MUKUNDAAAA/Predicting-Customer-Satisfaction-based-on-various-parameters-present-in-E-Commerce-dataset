@@ -14,9 +14,7 @@ T Senthilkumar,IISC
 
 
 Project Structure
-Customer_satisfaction.ipynb:
-
-This is the main algorithm file that predicts customer satisfaction.
+Customer_satisfaction.ipynb: This is the main algorithm file that predicts customer satisfaction.
 It includes:
 Data cleaning
 Data processing
